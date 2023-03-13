@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idk drawing thing</title>
+    <style>
+     #gamearea {
+        border: 4px solid green;
+     }
+     body{
+        height: 100vh;
+        background: linear-gradient(0deg,rgb(9, 224, 214)0%, rgba(253,187,45,1)100%);
+     text-align: center;
+     overflow: hidden;
+    
+    }
+    button{
+        float: left;
+        overflow: hidden;
+    }
+    </style>
+</head>
+<body>
+    
+    <p id="x"></p>
+    <p id="y"></p>
+    <canvas id="gamearea" width="800" height="600"></canvas>
+    <script src="index.js"></script>
+    
+</body>
+<button type="button" onclick="size()">click to change size</button>
+<button type="button" onclick="color()">click to change color</button>
+
+
+</html>
