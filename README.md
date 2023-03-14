@@ -1,2 +1,2 @@
 # drawing-thing
-use arrow keys to move and c to clear screen
+use arrow keys or wasd to move and c to clear screen
