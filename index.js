@@ -104,42 +104,42 @@ document.body.addEventListener("keydown", keyDown)
 document.body.addEventListener("keyup", keyup)
 function keyDown(event) {
     //up
-    if (event.keyCode == 38) {
+    if (event.keyCode == 38 || event.keyCode == 87) {
       uppressed = true;
     }
   
     //down
-    if (event.keyCode == 40) {
+    if (event.keyCode == 40 || event.keyCode == 83) {
       downpressed = true;
     }
     //left
-    if (event.keyCode == 37) {
+    if (event.keyCode == 37 || event.keyCode == 65) {
       leftpressed = true;
     }
   
     //right
-    if (event.keyCode == 39) {
+    if (event.keyCode == 39 || event.keyCode == 68) {
       rightpressed = true;
     }
   }
   
   function keyup(event) {
     //up
-    if (event.keyCode == 38) {
+    if (event.keyCode == 38 || event.keyCode == 87) {
       uppressed = false;
     }
   
     //down
-    if (event.keyCode == 40) {
+    if (event.keyCode == 40 || event.keyCode == 83) {
       downpressed = false;
     }
     //left
-    if (event.keyCode == 37) {
+    if (event.keyCode == 37 || event.keyCode == 65) {
       leftpressed = false;
     }
   
     //right
-    if (event.keyCode == 39) {
+    if (event.keyCode == 39 || event.keyCode == 68) {
       rightpressed = false;
     }
     if (event.keyCode == 67){
